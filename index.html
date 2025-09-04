@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="cabecalho">
+            <header>
+                <h1>Subconjuntos SQL</h1>
+                <h4>DML, DCL, DDL</h4>
+            </header>
+        </div>
+        <div id="principal">
+            <main>
+                <section class="DML">
+                    <article>
+                        <h2>• Comandos DML (Data Manipulation Language)</h2>
+                        <br>
+                        <p>
+                            A <strong>DML</strong> é usada para trabalhar com os dados que já estão dentro de uma tabela no banco de dados. 
+                            Com ela podemos incluir, mudar ou até apagar informações de forma prática.
+                        </p>
+                        <br>
+                        <ul>
+                            <li><strong>SELECT</strong>: usado para consultar e visualizar os dados salvos.</li>    
+                            <li><strong>INSERT INTO</strong>: serve para adicionar novos dados.</li>
+                            <li><strong>UPDATE</strong>: usado quando queremos alterar algum dado que já existe.</li>
+                            <li><strong>DELETE FROM</strong>: remove informações que não são mais necessárias.</li>
+                        </ul>
+                        <br>
+                    </article>
+                </section>
+                <section class="DDL">
+                    <article>
+                        <h2>• Comandos DDL (Data Definition Language)</h2>
+                        <br>
+                        <p>
+                            O <strong>DDL</strong> é um subconjunto do SQL usado para definir a estrutura de objetos em um banco de dados, como tabelas, índices e esquemas.
+                            Seus principais comandos são:  
+                        </p>
+                        <br>
+                        <ul>
+                            <li><strong>CREATE DATABASE</strong>: significa criar um banco de dados sem usar o comando CREATE DATABASE tradicional do SQL.</li>
+                            <li><strong>USE</strong>: Altera o contexto de banco de dados para o banco de dados ou instantâneo de banco de dados especificado.</li>
+                            <li><strong>CREATE TABLE</strong>:Usado para criar novos objetos no banco, como tabelas.</li>
+                            <li><strong>ALTER TABLE</strong>: Modifica um objeto existente no banco, pode adicionar, remover ou alterar informações da tabela.</li>
+                            <li><strong>DROP COLUMN</strong>: Remove completamente um objeto dentro do banco, incluindo sua estrutura e dados.</li>
+                            <li><strong>DESCRIBE</strong>: é usado para mostrar a estrutura de uma tabela, como os nomes das colunas, tipos de dados e restrições.</li>
+                        </ul>
+                        <br>
+                    </article>
+                </section>
+                <section class="clausulas">
+                    <article>
+                        <h2>• Cláusulas de filtro</h2>
+                        <br>
+                        <p>As cláusulas de filtro em SQL são comandos que você usa para selecionar linhas específicas de uma tabela. Imagine que uma tabela é uma planilha gigante.  As cláusulas de filtro são o que você usa para dizer ao banco de dados: "Eu só quero ver as linhas que atendem a estas condições".</p>
+                        <br>
+                        <h3>Where</h3>
+                        <br>
+                        <p>A cláusula <strong>WHERE</strong> é a mais fundamental. Ela é usada para filtrar registros com base em uma condição. Pense nela como a sua principal ferramenta de seleção.</p>
+                        <br>
+                        <h3>Operadores Lógicos (AND, OR, NOT)</h3>
+                        <br>
+                        <ul>
+                            <li><strong>AND</strong>: Usado para combinar duas ou mais condições. A linha só será retornada se TODAS as condições forem verdadeiras.</li>
+                            <li><strong>OR</strong>: Usado para combinar duas ou mais condições. A linha será retornada se QUALQUER UMA das condições for verdadeira.</li>
+                            <li><strong>NOT</strong>: Usado para negar uma condição. Retorna as linhas que NÃO satisfazem a condição.</li>
+                        </ul>
+                        <br>
+                        <h3>LIKE</h3>
+                        <br>
+                        <p>A cláusula <strong>LIKE</strong> é usada para procurar por padrões específicos em uma coluna de texto. Ela é muito útil quando você não sabe o valor exato, mas sabe uma parte dele.</p>
+                        <br>
+                    </article>
+                </section>                
+                <section class="consultas">
+                    <article>
+                        <h2>• Consultas e relacionamentos</h2>
+                        <br>
+                        <p>Uma consulta em SQL (Structured Query Language) é uma instrução usada para interagir com um banco de dados, sendo a SELECT a mais comum. A principal função da cláusula SELECT é recuperar dados de uma ou mais tabelas.</p>
+                        <br>
+                        <h3><strong>SELECT</strong></h3>
+                        <br>
+                        <p>A instrução SELECT é a base de todas as consultas. Ela especifica quais colunas você quer ver e de qual tabela. É a sua forma de pedir ao banco de dados para te mostrar informações.</p>
+                        <br>
+                        <h3><strong>JOIN</strong></h3>
+                        <br>
+                        <p>A cláusula JOIN é a ferramenta usada para combinar linhas de duas ou mais tabelas com base em uma coluna em comum, ou seja, para unir dados relacionados.</p>
+                    </article>
+                </section>
+                
+            </main>
+    </div>
+</body>
+</html>
